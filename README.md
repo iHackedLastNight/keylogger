@@ -33,7 +33,7 @@ The keylogger sets a low-level keyboard hook to intercept keystrokes. It then lo
 2. Compile the code:
 
     ```sh
-    gcc keylogger.cpp -o keylogger.exe -luser32
+    gcc keylogger.c -o keylogger.exe -luser32
     ```
 
 3. Run the executable:
