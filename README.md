@@ -2,7 +2,7 @@
 
 # keylogger
 
-This project is a simple keylogger implemented in C++ that captures and logs keystrokes to a file named `log.txt`. The keylogger hides the console window to run silently in the background.
+This project is a simple keylogger implemented in C that captures and logs keystrokes to a file named `log.txt`. The keylogger hides the console window to run silently in the background.
 
 ## How It Works
 
@@ -19,7 +19,7 @@ The keylogger sets a low-level keyboard hook to intercept keystrokes. It then lo
 ### Prerequisites
 
 - Windows operating system
-- C++ compiler (e.g., MinGW, Visual Studio)
+- C compiler (e.g., MinGW, Visual Studio)
 
 ### Building the Keylogger
 
@@ -33,7 +33,7 @@ The keylogger sets a low-level keyboard hook to intercept keystrokes. It then lo
 2. Compile the code:
 
     ```sh
-    g++ keylogger.cpp -o keylogger.exe -luser32
+    gcc keylogger.cpp -o keylogger.exe -luser32
     ```
 
 3. Run the executable:
